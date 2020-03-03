@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Hotel Reservation | Main Page</title>
-</head>
-<body>
-    <header>
-        <div class = "container">
-            <div id="company-name">
-                <h1>Hotel Reservation</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Hotel Reservation | Main Page</title>
+    </head>
+    <body>
+        <header>
+            <div class = "container">
+                <div id="company-name">
+                    <h1>Hotel Reservation</h1>
+                </div>
             </div>
-        </div>
-    </header>
-</body>
+        </header>
+        <form action="" method="GET">
+            <fieldset>
+                <label for="destination">Destination: </label><input type= "text" name="destination" id="destination" required autofocus placeholder="Destination" pattern="[a-zA-Z]{3,}" title="Please enter a city">
+            </fieldset>
+        </form>
+    </body>
 </html>
