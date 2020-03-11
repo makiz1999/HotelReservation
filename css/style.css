@@ -53,7 +53,23 @@ header a:hover{
 #showcase{
     color: #9ba681;
     text-align: left;
-    min-height: 400px;
+    min-height: 350px;
+}
+#showcase h1{
+    text-align: center;
+}
+#showcase .image{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+}
+
+#showcase .image img{
+    width:200px;
+}
+#showcase #convenient h3{
+    padding-top: 10px;
 }
 
 #select{
