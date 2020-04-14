@@ -37,7 +37,9 @@
             </p>
             <form action="home.php" method="post">
                 <input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
+                <br>
                 <textarea name="message" class="text-input contact-input"  placeholder="Your message"></textarea>
+                <br><br>
                 <button type="submit" class="btn btn-big">
                     <i class="fa fa-envelope"></i>
                     Send
