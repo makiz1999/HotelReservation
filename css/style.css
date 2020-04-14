@@ -207,8 +207,8 @@ linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
 
 /* Footer */
 .footer {
-    background: #303036;
-    color: #d3d3d3;
+    background: #a6a1ad;
+    color: #fcfcfc;
     height: 400px;
     position: relative;
 }
@@ -233,5 +233,3 @@ linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
     left: 0px;
     padding-top: 20px;
 }
-
-
