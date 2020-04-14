@@ -213,7 +213,7 @@ linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
     position: relative;
 }
 .footer .footer-content{
-    border: 1px solid red;
+    border: 1px solid purple;
     height: 350px;
     display: flex;
 }
