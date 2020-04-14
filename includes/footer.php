@@ -32,8 +32,9 @@
         </div>-->
 
         <div class="footer-section contact-form">
-            <h2>Contact us</h2>
-            <br>
+            <p>
+              Let us know about your experience!
+            </p>
             <form action="home.php" method="post">
                 <input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
                 <textarea name="message" class="text-input contact-input"  placeholder="Your message"></textarea>
