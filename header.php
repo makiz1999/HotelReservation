@@ -42,7 +42,6 @@
                   Password: <input type="text" name="pwd" placeholder = Password>
                   <button type="submit" name="login-submit">Login</button>
                 </form>';
-                #<a href="SignUp.php">Signup</a>
                 if(isset($_GET['error'])) {
                     if ($_GET['error'] == "emptyfields") {
                     echo '<p>Fill all fields!</p>';
@@ -59,26 +58,6 @@
                 }
               }
               ?>
-              <!-- if (isset($_SESSION['userName']) || isset($_SESSION['userId'])) {
-                echo '<p>Welcome back '.$_SESSION['userName'].'!</p>';
-              } else if(isset($_GET['error'])) {
-                  if ($_GET['error'] == "emptyfields") {
-                  echo '<p>Fill all fields!</p>';
-                } else if ($_GET['error'] == "sqlerror") {
-                  echo '<p>error in database check servor connection !</p>';
-                  echo '<p>if running on localhost run sql file on a sql application</p>';
-                }else if ($_GET['error'] == "wrongpwd") {
-                  echo '<p>Password does not match username/email!</p>';
-                }else if ($_GET['error'] == "nouserr") {
-                  echo '<p>invalid username/email!</p>';
-                }
-              } else {
-                echo'<p>Welcome valued guest.</p>';
-              } -->
-
-
-
-
             </div>
           </div>
     </header>
