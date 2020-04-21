@@ -22,6 +22,8 @@ include ('includes/header.php')
     </div>
 </section>
 
+<script type="text/javascript" src="http://services.iperfect.net/js/IP_generalLib.js"></script>
+
 <section id="select">
     <div class="box">
         <h1>Destination</h1>
@@ -33,11 +35,11 @@ include ('includes/header.php')
     </div>
     <div class="box">
         <h1>Check-in Date</h1>
-        <input type="date" id="check-in" name="check-in" required value="03/04/2020" min="03/04/2020">
+        <input type="text" name="check-in" id="check-in" alt="date" class="IP_calendar" title="d/m/Y">
     </div>
     <div class="box">
         <h1>Check-out Date</h1>
-        <input type="date" id="check-out" name="check-out" required value="03/05/2020" min="03/04/2020">
+        <input type="text" name="check-out" id="check-out" alt="date" class="IP_calendar" title="d/m/Y">
     </div>
 
     <div class="box-2">
