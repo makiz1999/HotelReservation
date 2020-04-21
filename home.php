@@ -31,6 +31,9 @@ include ('includes/header.php')
             <option selected disabled>Select the city...</option>
             <option value="Nashville">Nashville, TN</option>
             <option value="Miami">Miami, FL</option>
+            <option value="Atlanta">Atlanta, GA</option>
+            <option value="NewYork">New York, NY</option>
+            <option value="LosAngeles">Los Angeles, CA</option>
         </select>
     </div>
     <div class="box">
@@ -52,7 +55,9 @@ include ('includes/header.php')
     </div>
 
     <div class="box-3">
+      <form action="results.php" method="post">
         <input type="submit" id="search" value="Show options">
+      </form>
     </div>
 </section>
 <!--    <form action="" method="GET">-->
