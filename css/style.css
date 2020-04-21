@@ -209,12 +209,12 @@ linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
 .footer {
     background: #a6a1ad;
     color: #fcfcfc;
-    height: 400px;
+    height: 350px;
     position: relative;
 }
 .footer .footer-content{
     border: 1px solid purple;
-    height: 350px;
+    height: 300px;
     display: flex;
 }
 .footer .footer-content .footer-section{
@@ -235,7 +235,22 @@ linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
 }
 
 /* About */
-.about {
+#about .about-content{
+  background:#C3C9B3;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom:20px;
 }
-.about .about-content{
+#about h1{
+    text-align: center;
+    color: white;
+}
+#about .about-contact{
+  background:#C3C9B3;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom:20px;
 }
