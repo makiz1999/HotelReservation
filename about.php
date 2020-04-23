@@ -11,7 +11,7 @@ include ('includes/header.php')
       <p>
           For Any Inquiries Please Contact Us
       </p>
-          <span><i class="fa fa-phone aria-hidden="true""></i>  &nbsp; 000-000-000</span>
+          <span><i class="fa fa-phone aria-hidden="true""></i>  &nbsp; 000-000-0000</span>
           <br>
           <span><i class="fa fa-envelope"></i>  &nbsp; info@hotelreservation.com</span>
   </div>

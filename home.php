@@ -47,11 +47,11 @@ include ('includes/header.php')
 
     <div class="box-2">
         <h1>Rooms</h1>
-        <input type="number" id="rooms" name="rooms" min="1" value="1">
+        <input type="number" id="rooms" name="rooms" min="1" max=5 value="1">
     </div>
     <div class="box-2">
         <h1>Guests</h1>
-        <input type="number" id="guests" name="guests" min="1" value="1">
+        <input type="number" id="guests" name="guests" min="1" max=20 value="1">
     </div>
 
     <div class="box-3">
@@ -60,31 +60,7 @@ include ('includes/header.php')
       </form>
     </div>
 </section>
-<!--    <form action="" method="GET">-->
-<!--        <fieldset>-->
-<!--            <legend>Destination </legend>-->
-<!--            <label for="destination">Where to? </label>-->
-<!--            <select name = "city" required>-->
-<!--                <option value=""> </option>-->
-<!--                <option value="Nashville">Nashville, TN</option>-->
-<!--                <option value="Miami">Miami, FL</option>-->
-<!--                <option value="Atlanta">Atlanta, GA</option>-->
-<!--                <option value="NewYork">New York, NY</option>-->
-<!--                <option value="LosAngeles">Los Angeles, CA</option>-->
-<!--            </select>-->
-<!--        </fieldset>-->
-<!--        <br>-->
-<!--        <fieldset>-->
-<!--            <legend>Booking Details </legend>-->
-<!--            <label for="inDate">Check-in Date </label><input type="date" name="inDate" min="2020-03-03">-->
-<!--            <label for="outDate">Check-out Date </label><input type="date" name="outDate" min="2020-03-03">-->
-<!--            <br>-->
-<!--            <br>-->
-<!--            <label for="roomNum">Rooms </label><input type="number" name="roomNum" min="1" max="20">-->
-<!--            <label for="guestNum">Guests </label><input type="number" name="guestNum" min="1" max="6">-->
-<!--        </fieldset>-->
-<!--    </form>-->
-</body>
+
 
 <?php
 include ('includes/footer.php')
